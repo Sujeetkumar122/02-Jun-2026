@@ -24,3 +24,8 @@ resource "azurerm_resource_group" "pagal" {
   name     = "rg-uindia"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "dil" {
+  name     = "rg-dil"
+  location = "West Europe"
+}
