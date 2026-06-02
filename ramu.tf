@@ -25,7 +25,4 @@ resource "azurerm_resource_group" "pagal" {
   location = "West Europe"
 }
 
-resource "azurerm_resource_group" "poli" {
-  name     = "rg-poli"
-  location = "West Europe"
-}
+
