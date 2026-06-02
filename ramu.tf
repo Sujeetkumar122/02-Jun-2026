@@ -29,8 +29,3 @@ resource "azurerm_resource_group" "dil" {
   name     = "rg-dil"
   location = "West Europe"
 }
-
-resource "azurerm_resource_group" "ram" {
-  name     = "rg-ram"
-  location = "West Europe"
-}
