@@ -14,3 +14,8 @@ resource "azurerm_storage_account" "example" {
     environment = "staging"
   }
 }
+
+resource "azurerm_resource_group" "india" {
+  name     = "rg-uindia"
+  location = "West Europe"
+}
